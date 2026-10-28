@@ -1,0 +1,11 @@
+@"
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.log
+*.db
+*.opendb
+*.vsidx
+"@ | Out-File -FilePath .gitignore -Encoding utf8
